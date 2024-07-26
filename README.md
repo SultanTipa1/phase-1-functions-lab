@@ -24,7 +24,28 @@ long.
 
 Next, customers want Scuber to calculate the number of feet travelled based on
 the distance. Write a function called `distanceTravelledInFeet` that takes in
+both the start and destination blocks, and returns theScuber, our transportation company, has gained some traction among moms and dads
+in New York City. It has also received a few requests.
+
+First, Scuber's executives want to ensure that Scuber's headquarters is near its
+customers. They would like you to write a function, `distanceFromHqInBlocks`,
+that takes in a pickup location for a passenger, and returns the _number of
+blocks_ from Scuber headquarters on 42nd Street. For example, if the pickup
+location is `50` (i.e., 50th Street), the return value should be `8`.
+
+The `distanceFromHqInBlocks` function's return value can then be used for
+another function, `distanceFromHqInFeet`, that translates the number of blocks
+from headquarters to the distance in feet. Each block in Manhattan is 264 feet
+long.
+
+Next, customers want Scuber to calculate the number of feet travelled based on
+the distance. Write a function called `distanceTravelledInFeet` that takes in
 both the start and destination blocks, and returns the number of feet travelled.
+Remember, each block in Manhattan is 264 feet long. For example
+`distanceTravelledInFeet(34, 38)` representing 34th St to 38th St, returns 1056
+(`(38-34)*264`). You can assume that we are only calculating distance
+uptown/downtown, not from river to river.
+ number of feet travelled.
 Remember, each block in Manhattan is 264 feet long. For example
 `distanceTravelledInFeet(34, 38)` representing 34th St to 38th St, returns 1056
 (`(38-34)*264`). You can assume that we are only calculating distance
